@@ -1,0 +1,1456 @@
+{
+  "project": "AZ B13 Notes",
+  "generatedFor": "AZ Notes search/navigation app",
+  "sourceOfTruth": [
+    "AZ B13 Notes / B13 Live Session Notes",
+    "AZ B13 Revision & Assignment Dashboard",
+    "AZ B13 Notes / Digital folder"
+  ],
+  "notes": "This is a seed index for Codex/UI implementation. For production vector search, split PDF text into chunks and attach each chunk to sessionNo + topic + driveId.",
+  "topics": [
+    {
+      "id": "backtracking",
+      "title": "Backtracking",
+      "phase": "Recursion",
+      "sessionNos": [
+        19
+      ],
+      "aliases": [],
+      "concepts": [
+        "K queens",
+        "LCCMD",
+        "N Queens",
+        "backtracking",
+        "duplicates",
+        "level choice check move decide",
+        "permutations",
+        "revert choices",
+        "subsets"
+      ]
+    },
+    {
+      "id": "binary-search",
+      "title": "Binary Search",
+      "phase": "Search",
+      "sessionNos": [
+        14,
+        15
+      ],
+      "aliases": [
+        "answer space",
+        "boundary",
+        "check function",
+        "first true",
+        "last true",
+        "monotonicity"
+      ],
+      "concepts": [
+        "000111 pattern",
+        "answer space",
+        "binary array",
+        "binary search",
+        "binary search on answer",
+        "bitonic array",
+        "boundary search",
+        "check function",
+        "count less than equal",
+        "factory machines",
+        "first true",
+        "kth smallest",
+        "last true",
+        "lower bound",
+        "minimum feasible answer",
+        "monotonic predicate",
+        "monotonicity",
+        "peak finding",
+        "rotated sorted array",
+        "upper bound"
+      ]
+    },
+    {
+      "id": "bit-manipulation",
+      "title": "Bit Manipulation",
+      "phase": "Bits",
+      "sessionNos": [
+        29,
+        30
+      ],
+      "aliases": [
+        "OR contribution",
+        "XOR parity",
+        "bit contribution",
+        "mask",
+        "subsets by mask"
+      ],
+      "concepts": [
+        "AND contribution",
+        "OR contribution",
+        "XOR parity",
+        "binary",
+        "bit contribution",
+        "bits",
+        "bitset",
+        "check kth bit",
+        "distinct subarray AND",
+        "mask",
+        "per-bit thinking",
+        "pivot contribution",
+        "runs",
+        "set bit",
+        "shift",
+        "subsets by mask",
+        "toggle bit",
+        "two's complement"
+      ]
+    },
+    {
+      "id": "combinatorics",
+      "title": "Combinatorics",
+      "phase": "Math",
+      "sessionNos": [
+        5
+      ],
+      "aliases": [],
+      "concepts": [
+        "Pascal rule",
+        "Vandermonde identity",
+        "case analysis",
+        "combinatorics",
+        "hockey stick identity",
+        "inclusion exclusion",
+        "nCr",
+        "permutations",
+        "restrictions",
+        "selection",
+        "stars and bars",
+        "total minus bad cases"
+      ]
+    },
+    {
+      "id": "complexity-analysis",
+      "title": "Complexity Analysis",
+      "phase": "Foundations",
+      "sessionNos": [
+        2
+      ],
+      "aliases": [],
+      "concepts": [
+        "Big O",
+        "N log N",
+        "TLE",
+        "aggregate constraints",
+        "dominant terms",
+        "harmonic series",
+        "logarithmic loops",
+        "nested loops",
+        "operation limit",
+        "time complexity"
+      ]
+    },
+    {
+      "id": "contribution-technique",
+      "title": "Contribution Technique",
+      "phase": "Core Techniques",
+      "sessionNos": [
+        9
+      ],
+      "aliases": [
+        "atomic contribution",
+        "contribution",
+        "pivot contribution",
+        "subarray contribution"
+      ],
+      "concepts": [
+        "atomic item contribution",
+        "contribution technique",
+        "pair contribution",
+        "pivot contribution",
+        "product of subarrays",
+        "subarrays",
+        "subsequences",
+        "sum of subarrays"
+      ]
+    },
+    {
+      "id": "dsu",
+      "title": "DSU",
+      "phase": "Graphs",
+      "sessionNos": [
+        26
+      ],
+      "aliases": [
+        "Kruskal",
+        "components merging",
+        "connectivity",
+        "union find"
+      ],
+      "concepts": [
+        "DSU",
+        "Kruskal",
+        "MST",
+        "connectivity",
+        "disjoint set union",
+        "find",
+        "offline queries",
+        "path compression",
+        "reverse deletion",
+        "union",
+        "union by rank",
+        "union by size"
+      ]
+    },
+    {
+      "id": "debugging",
+      "title": "Debugging",
+      "phase": "Core Tools",
+      "sessionNos": [
+        10
+      ],
+      "aliases": [],
+      "concepts": [
+        "CE",
+        "MLE",
+        "RE",
+        "TLE",
+        "WA",
+        "bounds",
+        "brute force checker",
+        "debugging",
+        "macros",
+        "minimal repro",
+        "random generator",
+        "recursion",
+        "sanitizers",
+        "types"
+      ]
+    },
+    {
+      "id": "dynamic-programming",
+      "title": "Dynamic Programming",
+      "phase": "DP",
+      "sessionNos": [
+        31,
+        32,
+        33,
+        34
+      ],
+      "aliases": [
+        "DP",
+        "Kadane",
+        "LCS",
+        "LIS",
+        "memoization",
+        "state transition",
+        "tabulation"
+      ],
+      "concepts": [
+        "DP",
+        "DP DAG",
+        "DP Form 1",
+        "DP Form 2",
+        "DP Form 3",
+        "DP Form 4",
+        "DP Form 5",
+        "Kadane",
+        "LCS",
+        "LIS",
+        "advanced DP",
+        "bitonic",
+        "choose not choose",
+        "dynamic programming",
+        "ending at i",
+        "form state transition",
+        "level choice DP",
+        "lexicographically smallest reconstruction",
+        "longest common subsequence",
+        "longest common substring",
+        "matching DP",
+        "memoization",
+        "min subset size",
+        "restrictions in state",
+        "state compression",
+        "state design",
+        "state reconstruction",
+        "string restriction DP",
+        "subset DP",
+        "subset sum",
+        "tabulation",
+        "time limit check",
+        "transition design",
+        "two sequences"
+      ]
+    },
+    {
+      "id": "foundations",
+      "title": "Foundations",
+      "phase": "Foundations",
+      "sessionNos": [
+        1
+      ],
+      "aliases": [],
+      "concepts": [
+        "AC",
+        "CE",
+        "MLE",
+        "RE",
+        "TLE",
+        "WA",
+        "buffering",
+        "contribution method",
+        "debugging",
+        "fast I/O",
+        "integer safety",
+        "long long",
+        "online judge",
+        "subarray count",
+        "time complexity"
+      ]
+    },
+    {
+      "id": "graph-formulation",
+      "title": "Graph Formulation",
+      "phase": "Graphs",
+      "sessionNos": [
+        24,
+        25
+      ],
+      "aliases": [
+        "layered graph",
+        "multisource BFS",
+        "state augmentation",
+        "walls broken"
+      ],
+      "concepts": [
+        "0-1 BFS",
+        "O(NM)",
+        "any to any",
+        "constraints as state",
+        "count shortest paths",
+        "edge weights",
+        "every to any",
+        "graph formulation",
+        "grid BFS",
+        "grid pathfinding",
+        "layered graph",
+        "multisource BFS",
+        "nearest source",
+        "source reversal",
+        "state augmentation",
+        "wall breaking",
+        "ways array"
+      ]
+    },
+    {
+      "id": "graphs",
+      "title": "Graphs",
+      "phase": "Graphs",
+      "sessionNos": [
+        21,
+        22
+      ],
+      "aliases": [
+        "BFS",
+        "DFS",
+        "bipartite",
+        "components",
+        "grid graph"
+      ],
+      "concepts": [
+        "BFS",
+        "DFS",
+        "O(N+M)",
+        "adjacency list",
+        "bipartite check",
+        "component id",
+        "component size",
+        "connected components",
+        "distance array",
+        "edge list",
+        "graph",
+        "grid graph",
+        "implicit graph",
+        "labyrinth",
+        "parent reconstruction",
+        "path reconstruction",
+        "reachability",
+        "shortest path",
+        "unweighted graph",
+        "visited array"
+      ]
+    },
+    {
+      "id": "greedy",
+      "title": "Greedy",
+      "phase": "Core Techniques",
+      "sessionNos": [
+        11
+      ],
+      "aliases": [],
+      "concepts": [
+        "cost optimization",
+        "exchange argument",
+        "greedy",
+        "minimize dot product",
+        "optimal play",
+        "priority queue",
+        "reverse greedy",
+        "scheduling",
+        "sorting strategy"
+      ]
+    },
+    {
+      "id": "modulo-arithmetic",
+      "title": "Modulo Arithmetic",
+      "phase": "Math",
+      "sessionNos": [
+        4
+      ],
+      "aliases": [],
+      "concepts": [
+        "Fermat little theorem",
+        "binary exponentiation",
+        "division under modulo",
+        "modular addition",
+        "modular inverse",
+        "modular multiplication",
+        "modulo",
+        "negative modulo",
+        "overflow"
+      ]
+    },
+    {
+      "id": "number-theory",
+      "title": "Number Theory",
+      "phase": "Math",
+      "sessionNos": [
+        6
+      ],
+      "aliases": [],
+      "concepts": [
+        "GCD",
+        "LCM",
+        "SPF",
+        "divisors",
+        "factorization queries",
+        "precomputation",
+        "prime factorization",
+        "sieve of Eratosthenes"
+      ]
+    },
+    {
+      "id": "recursion",
+      "title": "Recursion",
+      "phase": "Recursion",
+      "sessionNos": [
+        18,
+        20
+      ],
+      "aliases": [],
+      "concepts": [
+        "Fibonacci",
+        "Tower of Hanoi",
+        "Tower of Hanoi kth move",
+        "base case",
+        "breakpoints",
+        "fractal",
+        "palindrome recursion",
+        "precompute",
+        "recurrence relation",
+        "recursion",
+        "recursion stack",
+        "recursion tree",
+        "recursive burger",
+        "recursive decomposition",
+        "recursive printing",
+        "recursive string",
+        "smaller subproblem"
+      ]
+    },
+    {
+      "id": "stl",
+      "title": "STL",
+      "phase": "Core Tools",
+      "sessionNos": [
+        7,
+        8
+      ],
+      "aliases": [],
+      "concepts": [
+        "amortized complexity",
+        "array names",
+        "char arrays",
+        "container operations",
+        "container time complexity",
+        "custom comparator",
+        "deque",
+        "dereference",
+        "iterators",
+        "map",
+        "multiset",
+        "pair",
+        "pointers",
+        "priority queue",
+        "queue",
+        "set",
+        "stack",
+        "vector"
+      ]
+    },
+    {
+      "id": "shortest-paths",
+      "title": "Shortest Paths",
+      "phase": "Graphs",
+      "sessionNos": [
+        23
+      ],
+      "aliases": [],
+      "concepts": [
+        "0-1 BFS",
+        "Bellman-Ford",
+        "Dijkstra",
+        "Floyd-Warshall",
+        "all pairs shortest path",
+        "deque",
+        "edge weights",
+        "negative cycle",
+        "negative weights",
+        "priority queue",
+        "shortest path"
+      ]
+    },
+    {
+      "id": "sorting-and-frequency",
+      "title": "Sorting and Frequency",
+      "phase": "Foundations",
+      "sessionNos": [
+        3
+      ],
+      "aliases": [],
+      "concepts": [
+        "anagram",
+        "binary search",
+        "counting sort",
+        "custom comparator",
+        "frequency array",
+        "frequency map",
+        "linear search",
+        "pair counting",
+        "palindrome frequency",
+        "sorting",
+        "stable sort",
+        "unstable sort"
+      ]
+    },
+    {
+      "id": "stacks",
+      "title": "Stacks",
+      "phase": "Core Techniques",
+      "sessionNos": [
+        13
+      ],
+      "aliases": [
+        "NGE",
+        "histogram",
+        "monotonic stack",
+        "nearest smaller",
+        "next greater element"
+      ],
+      "concepts": [
+        "candidate indices",
+        "duplicates",
+        "histogram",
+        "inequality handling",
+        "largest rectangle",
+        "monotonic stack",
+        "next greater element",
+        "next smaller element",
+        "previous smaller element",
+        "stack",
+        "subarray minimums"
+      ]
+    },
+    {
+      "id": "sweep-line",
+      "title": "Sweep Line",
+      "phase": "Core Techniques",
+      "sessionNos": [
+        12
+      ],
+      "aliases": [
+        "active state",
+        "events",
+        "intervals",
+        "range changes"
+      ],
+      "concepts": [
+        "active state",
+        "coordinate compression",
+        "end event",
+        "events",
+        "intervals",
+        "prefix accumulation",
+        "range updates",
+        "segments",
+        "start event",
+        "sweep line"
+      ]
+    },
+    {
+      "id": "trees",
+      "title": "Trees",
+      "phase": "Trees",
+      "sessionNos": [
+        27,
+        28
+      ],
+      "aliases": [],
+      "concepts": [
+        "DFS",
+        "ancestor queries",
+        "centroid",
+        "closest ancestor",
+        "multiset on path",
+        "path count",
+        "path min max",
+        "path state",
+        "rerooting DP",
+        "subtree size",
+        "subtree_size*(n-subtree_size)",
+        "sum distances",
+        "tree ancestors",
+        "tree center",
+        "tree contribution",
+        "tree diameter",
+        "trees",
+        "unique path"
+      ]
+    },
+    {
+      "id": "two-pointers",
+      "title": "Two Pointers",
+      "phase": "Two Pointers",
+      "sessionNos": [
+        16,
+        17
+      ],
+      "aliases": [
+        "at most K",
+        "exactly K",
+        "head tail",
+        "sliding window",
+        "subarray window"
+      ],
+      "concepts": [
+        "K distinct",
+        "at most K",
+        "container with most water",
+        "count subarrays",
+        "exactly K",
+        "head tail",
+        "intersection",
+        "longest subarray",
+        "max consecutive ones",
+        "monotonic validity",
+        "opposite pointers",
+        "pair optimization",
+        "shortest subarray",
+        "sliding window",
+        "sorted arrays",
+        "stream matching",
+        "subarray",
+        "subsequence matching",
+        "two pointers",
+        "union"
+      ]
+    }
+  ],
+  "sessions": [
+    {
+      "sessionNo": 1,
+      "date": "2025-12-07",
+      "title": "Foundations of Problem Solving",
+      "phase": "Foundations",
+      "topic": "Foundations",
+      "pdfTitle": "Dec 7 - Foundations of Problem Solving.pdf",
+      "driveId": "14JtgDp1wzcV7ZY7Fxx4lPWH9MO2P8o0Y",
+      "concepts": [
+        "online judge",
+        "AC",
+        "TLE",
+        "MLE",
+        "WA",
+        "RE",
+        "CE",
+        "fast I/O",
+        "buffering",
+        "long long",
+        "integer safety",
+        "subarray count",
+        "contribution method",
+        "time complexity",
+        "debugging"
+      ],
+      "summary": "Online Judge workflow, verdict diagnosis, fast I/O, integer safety, subarray counting, contribution method, time complexity basics, and debugging awareness.",
+      "notesUrl": "https://drive.google.com/file/d/14JtgDp1wzcV7ZY7Fxx4lPWH9MO2P8o0Y/view"
+    },
+    {
+      "sessionNo": 2,
+      "date": "2025-12-13",
+      "title": "Never Get TLE Again",
+      "phase": "Foundations",
+      "topic": "Complexity Analysis",
+      "pdfTitle": "Dec 13 - Never get TLE again.pdf",
+      "driveId": "14br0iiI2KHUV2ee6uRbK9szN6-iGrrqN",
+      "concepts": [
+        "TLE",
+        "time complexity",
+        "Big O",
+        "dominant terms",
+        "nested loops",
+        "logarithmic loops",
+        "N log N",
+        "harmonic series",
+        "aggregate constraints",
+        "operation limit"
+      ],
+      "summary": "Complexity estimation patterns for avoiding TLE, including Big-O, loop patterns, dominant terms, and practical operation-limit analysis.",
+      "notesUrl": "https://drive.google.com/file/d/14br0iiI2KHUV2ee6uRbK9szN6-iGrrqN/view"
+    },
+    {
+      "sessionNo": 3,
+      "date": "2025-12-13",
+      "title": "Searching, Sorting and Frequency Mapping",
+      "phase": "Foundations",
+      "topic": "Sorting and Frequency",
+      "pdfTitle": "Dec 13 - Searching, Sorting and Frequency Mapping.pdf",
+      "driveId": "1kojgzBsKdR0sL31pDPtR9NPazkldRaA_",
+      "concepts": [
+        "linear search",
+        "binary search",
+        "sorting",
+        "stable sort",
+        "unstable sort",
+        "custom comparator",
+        "frequency array",
+        "frequency map",
+        "counting sort",
+        "anagram",
+        "palindrome frequency",
+        "pair counting"
+      ],
+      "summary": "Searching and sorting foundations, custom comparators, frequency arrays/maps, counting patterns, anagrams, palindrome checks, and pair counting.",
+      "notesUrl": "https://drive.google.com/file/d/1kojgzBsKdR0sL31pDPtR9NPazkldRaA_/view"
+    },
+    {
+      "sessionNo": 4,
+      "date": "2025-12-21",
+      "title": "Modulo Arithmetic",
+      "phase": "Math",
+      "topic": "Modulo Arithmetic",
+      "pdfTitle": "Dec 21 - Modulo Arithmetic.pdf",
+      "driveId": "1ne4vCZd847Gn6Et-0lKFcZYoIeUnmhIK",
+      "concepts": [
+        "modulo",
+        "negative modulo",
+        "overflow",
+        "modular addition",
+        "modular multiplication",
+        "binary exponentiation",
+        "modular inverse",
+        "Fermat little theorem",
+        "division under modulo"
+      ],
+      "summary": "Modulo arithmetic safety, negative modulo handling, binary exponentiation, modular inverse, Fermat's Little Theorem, and modulo implementation patterns.",
+      "notesUrl": "https://drive.google.com/file/d/1ne4vCZd847Gn6Et-0lKFcZYoIeUnmhIK/view"
+    },
+    {
+      "sessionNo": 5,
+      "date": "2025-12-21",
+      "title": "Combinatorics You Must Know",
+      "phase": "Math",
+      "topic": "Combinatorics",
+      "pdfTitle": "Dec 21 - Combinatorics you must know.pdf",
+      "driveId": "1r9UiwTIDVCdAcA9JXAmzNBsl24l4tCM3",
+      "concepts": [
+        "combinatorics",
+        "case analysis",
+        "inclusion exclusion",
+        "permutations",
+        "restrictions",
+        "selection",
+        "stars and bars",
+        "nCr",
+        "Pascal rule",
+        "hockey stick identity",
+        "Vandermonde identity",
+        "total minus bad cases"
+      ],
+      "summary": "Counting techniques through casework, complement counting, inclusion-exclusion, permutations with restrictions, stars and bars, nCr, and core identities.",
+      "notesUrl": "https://drive.google.com/file/d/1r9UiwTIDVCdAcA9JXAmzNBsl24l4tCM3/view"
+    },
+    {
+      "sessionNo": 6,
+      "date": "2025-12-27",
+      "title": "Number Theory",
+      "phase": "Math",
+      "topic": "Number Theory",
+      "pdfTitle": "Dec 27 - Number Theory.pdf",
+      "driveId": "1EeoGuvckMPl9p-gob-iGgvkk8XX4is-3",
+      "concepts": [
+        "GCD",
+        "LCM",
+        "divisors",
+        "prime factorization",
+        "sieve of Eratosthenes",
+        "SPF",
+        "precomputation",
+        "factorization queries"
+      ],
+      "summary": "Number theory foundations for competitive programming: GCD/LCM, divisor enumeration, prime factorization, sieve, SPF, precomputation, and query optimization.",
+      "notesUrl": "https://drive.google.com/file/d/1EeoGuvckMPl9p-gob-iGgvkk8XX4is-3/view"
+    },
+    {
+      "sessionNo": 7,
+      "date": "2026-01-11",
+      "title": "STL Foundation I",
+      "phase": "Core Tools",
+      "topic": "STL",
+      "pdfTitle": "Jan 11 - STL foundation 1.pdf",
+      "driveId": "1UN6sRuToDmjm6e9UFaGq6LHyfNvX6URt",
+      "concepts": [
+        "pointers",
+        "array names",
+        "dereference",
+        "char arrays",
+        "pair",
+        "vector",
+        "iterators",
+        "container operations"
+      ],
+      "summary": "Pointers, array name behavior, dereference, char arrays, pairs, vectors, and foundational STL operations for implementation.",
+      "notesUrl": "https://drive.google.com/file/d/1UN6sRuToDmjm6e9UFaGq6LHyfNvX6URt/view"
+    },
+    {
+      "sessionNo": 8,
+      "date": "2026-01-12",
+      "title": "STL Foundation II",
+      "phase": "Core Tools",
+      "topic": "STL",
+      "pdfTitle": "Jan 12 - STL foundation 2.pdf",
+      "driveId": "1tiu9XJ61vvTq3U-oSN3Q6xWYgPVshC_l",
+      "concepts": [
+        "stack",
+        "queue",
+        "deque",
+        "set",
+        "multiset",
+        "map",
+        "priority queue",
+        "custom comparator",
+        "amortized complexity",
+        "container time complexity"
+      ],
+      "summary": "STL containers and operations: stack, queue, deque, set, multiset, map, priority queue, ordering, duplicates, access patterns, and complexity.",
+      "notesUrl": "https://drive.google.com/file/d/1tiu9XJ61vvTq3U-oSN3Q6xWYgPVshC_l/view"
+    },
+    {
+      "sessionNo": 9,
+      "date": "2026-01-17",
+      "title": "Contribution Technique",
+      "phase": "Core Techniques",
+      "topic": "Contribution Technique",
+      "pdfTitle": "Jan 17 - Contribution technique.pdf",
+      "driveId": "11byupRpG2Mq71cUEn7aNHR6DcIHe8xDa",
+      "concepts": [
+        "contribution technique",
+        "atomic item contribution",
+        "pivot contribution",
+        "subarrays",
+        "subsequences",
+        "sum of subarrays",
+        "product of subarrays",
+        "pair contribution"
+      ],
+      "summary": "Contribution technique patterns for subarrays/subsequences, split into atomic item contribution and contribution at pivot/end.",
+      "notesUrl": "https://drive.google.com/file/d/11byupRpG2Mq71cUEn7aNHR6DcIHe8xDa/view"
+    },
+    {
+      "sessionNo": 10,
+      "date": "2026-01-17",
+      "title": "Debugging Masterclass",
+      "phase": "Core Tools",
+      "topic": "Debugging",
+      "pdfTitle": "Jan 17 - Debugging Masterclass.pdf",
+      "driveId": "1Chtvn5zPsQIQIGv1m5LwbXmi_e_yt8ef",
+      "concepts": [
+        "debugging",
+        "CE",
+        "RE",
+        "TLE",
+        "MLE",
+        "WA",
+        "bounds",
+        "recursion",
+        "types",
+        "macros",
+        "random generator",
+        "brute force checker",
+        "minimal repro",
+        "sanitizers"
+      ],
+      "summary": "Verdict-based debugging workflow, generator-based random testing, brute-force comparison, and reducing failing cases into minimal repros.",
+      "notesUrl": "https://drive.google.com/file/d/1Chtvn5zPsQIQIGv1m5LwbXmi_e_yt8ef/view"
+    },
+    {
+      "sessionNo": 11,
+      "date": "2026-01-24",
+      "title": "Greedy Ideas with STL",
+      "phase": "Core Techniques",
+      "topic": "Greedy",
+      "pdfTitle": "Jan 24 - Greedy Ideas With STL.pdf",
+      "driveId": "1jhQCCaXwxYB4UpTLqZsb4r4B5JwJz2P_",
+      "concepts": [
+        "greedy",
+        "exchange argument",
+        "reverse greedy",
+        "sorting strategy",
+        "priority queue",
+        "scheduling",
+        "minimize dot product",
+        "optimal play",
+        "cost optimization"
+      ],
+      "summary": "Greedy patterns, proofs via exchange arguments, reverse greedy thinking, scheduling, local-to-global reasoning, and priority-queue optimization.",
+      "notesUrl": "https://drive.google.com/file/d/1jhQCCaXwxYB4UpTLqZsb4r4B5JwJz2P_/view"
+    },
+    {
+      "sessionNo": 12,
+      "date": "2026-01-24",
+      "title": "Sweep Line on Segments",
+      "phase": "Core Techniques",
+      "topic": "Sweep Line",
+      "pdfTitle": "Jan 24 - Sweep Line On Segments.pdf",
+      "driveId": "1UWLuHBjFmVgKoioy9FdBZE2Bjek49nnP",
+      "concepts": [
+        "sweep line",
+        "events",
+        "intervals",
+        "segments",
+        "active state",
+        "range updates",
+        "start event",
+        "end event",
+        "coordinate compression",
+        "prefix accumulation"
+      ],
+      "summary": "Sweep line for interval/range problems by processing start and end events instead of simulating every point.",
+      "notesUrl": "https://drive.google.com/file/d/1UWLuHBjFmVgKoioy9FdBZE2Bjek49nnP/view"
+    },
+    {
+      "sessionNo": 13,
+      "date": "2026-01-31",
+      "title": "Stack Usage Mastery",
+      "phase": "Core Techniques",
+      "topic": "Stacks",
+      "pdfTitle": "Jan 31 - Stack Usage Mastery.pdf",
+      "driveId": "1dGk2g6q1oAwBMHgY7AMWA79cdI-H-EVr",
+      "concepts": [
+        "stack",
+        "monotonic stack",
+        "next greater element",
+        "next smaller element",
+        "previous smaller element",
+        "histogram",
+        "largest rectangle",
+        "subarray minimums",
+        "duplicates",
+        "inequality handling",
+        "candidate indices"
+      ],
+      "summary": "Stack and monotonic-stack patterns for next greater/smaller, histogram rectangles, subarray minimums, duplicates, and candidate maintenance.",
+      "notesUrl": "https://drive.google.com/file/d/1dGk2g6q1oAwBMHgY7AMWA79cdI-H-EVr/view"
+    },
+    {
+      "sessionNo": 14,
+      "date": "2026-02-13",
+      "title": "Binary Search I",
+      "phase": "Search",
+      "topic": "Binary Search",
+      "pdfTitle": "Feb 13 - Binary Search.pdf",
+      "driveId": "1595Oq3clCkNQk1XpftIZNxdO3Q_dJpib",
+      "concepts": [
+        "binary search",
+        "monotonicity",
+        "first true",
+        "last true",
+        "lower bound",
+        "upper bound",
+        "binary array",
+        "rotated sorted array",
+        "bitonic array",
+        "peak finding",
+        "boundary search",
+        "000111 pattern"
+      ],
+      "summary": "Binary search as boundary-finding over monotonic predicates, including lower/upper bound, first/last occurrence, binary arrays, rotated arrays, and bitonic peak search.",
+      "notesUrl": "https://drive.google.com/file/d/1595Oq3clCkNQk1XpftIZNxdO3Q_dJpib/view"
+    },
+    {
+      "sessionNo": 15,
+      "date": "2026-02-15",
+      "title": "Binary Search II",
+      "phase": "Search",
+      "topic": "Binary Search",
+      "pdfTitle": "Feb 15 - Binary Search.pdf",
+      "driveId": "1bq_8I-sxlu5Ss82yv6J_Ti1QKkxM0ij_",
+      "concepts": [
+        "binary search on answer",
+        "answer space",
+        "check function",
+        "monotonic predicate",
+        "minimum feasible answer",
+        "factory machines",
+        "kth smallest",
+        "count less than equal"
+      ],
+      "summary": "Binary search on answer: define check(x), search feasible/infeasible regions, and solve answer-space problems efficiently.",
+      "notesUrl": "https://drive.google.com/file/d/1bq_8I-sxlu5Ss82yv6J_Ti1QKkxM0ij_/view"
+    },
+    {
+      "sessionNo": 16,
+      "date": "2026-02-22",
+      "title": "Two Pointers Form 1",
+      "phase": "Two Pointers",
+      "topic": "Two Pointers",
+      "pdfTitle": "Feb 22 - Two Pointers Form 1.pdf",
+      "driveId": "16DrB5qzGPTBIBEVo6cuwVXHC8do3kmSO",
+      "concepts": [
+        "two pointers",
+        "sliding window",
+        "head tail",
+        "subarray",
+        "monotonic validity",
+        "longest subarray",
+        "shortest subarray",
+        "count subarrays",
+        "at most K",
+        "exactly K",
+        "K distinct",
+        "max consecutive ones"
+      ],
+      "summary": "Sliding-window/two-pointer Form 1 for subarray problems with monotonic validity, including longest/shortest/count patterns, at most K, and exactly K via subtraction.",
+      "notesUrl": "https://drive.google.com/file/d/16DrB5qzGPTBIBEVo6cuwVXHC8do3kmSO/view?usp=drive_link"
+    },
+    {
+      "sessionNo": 17,
+      "date": "2026-02-22",
+      "title": "Two Pointers Form 2 and 3",
+      "phase": "Two Pointers",
+      "topic": "Two Pointers",
+      "pdfTitle": "Feb 22 - Two Pointers Form 2 And 3.pdf",
+      "driveId": "1mTwb4d4WgzETKCdgCE_dUc3am7LCf_bj",
+      "concepts": [
+        "opposite pointers",
+        "subsequence matching",
+        "intersection",
+        "union",
+        "sorted arrays",
+        "container with most water",
+        "pair optimization",
+        "stream matching"
+      ],
+      "summary": "Two-pointer forms for pairs, ordered comparisons, subsequence matching, intersection/union, and replacing brute force with pointer movement.",
+      "notesUrl": "https://drive.google.com/file/d/1mTwb4d4WgzETKCdgCE_dUc3am7LCf_bj/view"
+    },
+    {
+      "sessionNo": 18,
+      "date": "2026-03-01",
+      "title": "Recursion Foundation",
+      "phase": "Recursion",
+      "topic": "Recursion",
+      "pdfTitle": "March 1 - Recursion Foundation.pdf",
+      "driveId": "1_85evc2qZLMKNu8SqqAgJBnmLAqGFLsl",
+      "concepts": [
+        "recursion",
+        "base case",
+        "smaller subproblem",
+        "recursion tree",
+        "recursion stack",
+        "recurrence relation",
+        "Fibonacci",
+        "palindrome recursion",
+        "recursive printing",
+        "Tower of Hanoi"
+      ],
+      "summary": "Recursion basics, recursion trees/stacks, recurrence relations, base cases, smaller subproblems, and classic recursive examples.",
+      "notesUrl": "https://drive.google.com/file/d/1_85evc2qZLMKNu8SqqAgJBnmLAqGFLsl/view"
+    },
+    {
+      "sessionNo": 19,
+      "date": "2026-03-01",
+      "title": "Backtracking Framework",
+      "phase": "Recursion",
+      "topic": "Backtracking",
+      "pdfTitle": "March 1 - Backtracking Framework.pdf",
+      "driveId": "1_qRvkqmFRdMX4yVRP407gXctHn1YIxV1",
+      "concepts": [
+        "backtracking",
+        "LCCMD",
+        "level choice check move decide",
+        "N Queens",
+        "K queens",
+        "permutations",
+        "subsets",
+        "duplicates",
+        "revert choices"
+      ],
+      "summary": "Backtracking framework using Level-Choice-Check-Move-Decide/Revert, with N-Queens, K queens, permutations, subsets, and duplicate handling.",
+      "notesUrl": "https://drive.google.com/file/d/1_qRvkqmFRdMX4yVRP407gXctHn1YIxV1/view"
+    },
+    {
+      "sessionNo": 20,
+      "date": "2026-03-14",
+      "title": "Recursion Application Ideas",
+      "phase": "Recursion",
+      "topic": "Recursion",
+      "pdfTitle": "March 14 - Recursion Application Ideas.pdf",
+      "driveId": "1O88IFRohKV-D_kkvgxb7Ojek0PzkSDFB",
+      "concepts": [
+        "Tower of Hanoi kth move",
+        "recursive burger",
+        "recursive decomposition",
+        "breakpoints",
+        "precompute",
+        "recursive string",
+        "fractal"
+      ],
+      "summary": "Recursive application patterns for locating kth move/value in recursively defined structures, using breakpoints and decomposition.",
+      "notesUrl": "https://drive.google.com/file/d/1O88IFRohKV-D_kkvgxb7Ojek0PzkSDFB/view"
+    },
+    {
+      "sessionNo": 21,
+      "date": "2026-03-21",
+      "title": "Graph Foundations 1",
+      "phase": "Graphs",
+      "topic": "Graphs",
+      "pdfTitle": "March 21 - Graph Foundations 1.pdf",
+      "driveId": "1sibxR4BiryXYAnxJoC-BcxPGl4Rny5mE",
+      "concepts": [
+        "graph",
+        "DFS",
+        "adjacency list",
+        "edge list",
+        "reachability",
+        "connected components",
+        "component id",
+        "component size",
+        "bipartite check",
+        "O(N+M)"
+      ],
+      "summary": "Graph foundations with DFS, graph modeling, adjacency lists, reachability, connected components, and bipartite checking.",
+      "notesUrl": "https://drive.google.com/file/d/1sibxR4BiryXYAnxJoC-BcxPGl4Rny5mE/view"
+    },
+    {
+      "sessionNo": 22,
+      "date": "2026-03-21",
+      "title": "Graph Foundations 2",
+      "phase": "Graphs",
+      "topic": "Graphs",
+      "pdfTitle": "March 21 - Graph Foundations 2.pdf",
+      "driveId": "1qubeDDCUlwqEA1MWpSuSHHMUYw3r8PMw",
+      "concepts": [
+        "BFS",
+        "grid graph",
+        "labyrinth",
+        "shortest path",
+        "unweighted graph",
+        "implicit graph",
+        "distance array",
+        "visited array",
+        "parent reconstruction",
+        "path reconstruction"
+      ],
+      "summary": "BFS and grid shortest path modeling, implicit graph traversal, distance/visited/parent arrays, and reconstructing shortest paths.",
+      "notesUrl": "https://drive.google.com/file/d/1qubeDDCUlwqEA1MWpSuSHHMUYw3r8PMw/view"
+    },
+    {
+      "sessionNo": 23,
+      "date": "2026-03-28",
+      "title": "Graph Shortest Path Algorithms",
+      "phase": "Graphs",
+      "topic": "Shortest Paths",
+      "pdfTitle": "March 28 - Graph Shortest Path Algorithms.pdf",
+      "driveId": "1voqf2tIoB-Eq0mb6scpd17DRiE9ID8vR",
+      "concepts": [
+        "shortest path",
+        "0-1 BFS",
+        "deque",
+        "Dijkstra",
+        "priority queue",
+        "Bellman-Ford",
+        "negative weights",
+        "negative cycle",
+        "Floyd-Warshall",
+        "all pairs shortest path",
+        "edge weights"
+      ],
+      "summary": "Shortest-path algorithms by edge-weight type: BFS, 0-1 BFS, Dijkstra, Bellman-Ford, and Floyd-Warshall.",
+      "notesUrl": "https://drive.google.com/file/d/1voqf2tIoB-Eq0mb6scpd17DRiE9ID8vR/view"
+    },
+    {
+      "sessionNo": 24,
+      "date": "2026-03-28",
+      "title": "Graph Formulation 1",
+      "phase": "Graphs",
+      "topic": "Graph Formulation",
+      "pdfTitle": "March 28 - Graph Formulation.pdf",
+      "driveId": "1QOYpHYz-y1b8sx8pB51--bg6VUCtv1uM",
+      "concepts": [
+        "graph formulation",
+        "grid pathfinding",
+        "0-1 BFS",
+        "wall breaking",
+        "state augmentation",
+        "layered graph",
+        "constraints as state",
+        "edge weights",
+        "O(NM)"
+      ],
+      "summary": "Graph formulation for grid optimization problems, modeling moves as weighted edges, adding state for restrictions, and using 0-1 BFS/layered graphs.",
+      "notesUrl": "https://drive.google.com/file/d/1QOYpHYz-y1b8sx8pB51--bg6VUCtv1uM/view"
+    },
+    {
+      "sessionNo": 25,
+      "date": "2026-04-04",
+      "title": "Graph Formulation 2",
+      "phase": "Graphs",
+      "topic": "Graph Formulation",
+      "pdfTitle": "April 4 - Graph Formulation 2.pdf",
+      "driveId": "1o4HcGJDD1AfQHcZhwuWL62xp6tN3qqi9",
+      "concepts": [
+        "multisource BFS",
+        "any to any",
+        "every to any",
+        "source reversal",
+        "nearest source",
+        "count shortest paths",
+        "ways array",
+        "grid BFS"
+      ],
+      "summary": "Advanced graph formulation with multisource BFS, choosing BFS direction for every/any wording, nearest-source problems, and counting shortest paths.",
+      "notesUrl": "https://drive.google.com/file/d/1o4HcGJDD1AfQHcZhwuWL62xp6tN3qqi9/view"
+    },
+    {
+      "sessionNo": 26,
+      "date": "2026-04-05",
+      "title": "DSU and Applications",
+      "phase": "Graphs",
+      "topic": "DSU",
+      "pdfTitle": "April 5 - DSU And Applications.pdf",
+      "driveId": "12ENwQgw2sd26guz7kwde24bI-2-ezxVr",
+      "concepts": [
+        "DSU",
+        "disjoint set union",
+        "find",
+        "union",
+        "path compression",
+        "union by size",
+        "union by rank",
+        "Kruskal",
+        "MST",
+        "reverse deletion",
+        "offline queries",
+        "connectivity"
+      ],
+      "summary": "DSU for component connectivity, path compression, union by size/rank, Kruskal MST, and offline reverse-processing patterns.",
+      "notesUrl": "https://drive.google.com/file/d/12ENwQgw2sd26guz7kwde24bI-2-ezxVr/view"
+    },
+    {
+      "sessionNo": 27,
+      "date": "2026-04-11",
+      "title": "Tree Application Ideas 1",
+      "phase": "Trees",
+      "topic": "Trees",
+      "pdfTitle": "April 11 - Tree Application Ideas 1.pdf",
+      "driveId": "1Xir1yRF9eFTGaRCJ82gC9JH_CMz7crZ3",
+      "concepts": [
+        "trees",
+        "tree diameter",
+        "tree center",
+        "centroid",
+        "subtree size",
+        "tree contribution",
+        "unique path",
+        "DFS",
+        "path count",
+        "subtree_size*(n-subtree_size)"
+      ],
+      "summary": "Tree applications around diameter, center, centroid, subtree sizes, and contribution over unique paths.",
+      "notesUrl": "https://drive.google.com/file/d/1Xir1yRF9eFTGaRCJ82gC9JH_CMz7crZ3/view"
+    },
+    {
+      "sessionNo": 28,
+      "date": "2026-04-12",
+      "title": "Tree Application Ideas 2",
+      "phase": "Trees",
+      "topic": "Trees",
+      "pdfTitle": "Apr 12 - Tree Application Ideas 2.pdf",
+      "driveId": "10jPKHdJlhVMDnOMDHAblW0ZnVTQogBay",
+      "concepts": [
+        "tree ancestors",
+        "ancestor queries",
+        "path min max",
+        "multiset on path",
+        "rerooting DP",
+        "sum distances",
+        "closest ancestor",
+        "path state"
+      ],
+      "summary": "Advanced tree patterns: ancestor data, path min/max state, closest ancestor with multiset-like structures, and rerooting DP.",
+      "notesUrl": "https://drive.google.com/file/d/10jPKHdJlhVMDnOMDHAblW0ZnVTQogBay/view"
+    },
+    {
+      "sessionNo": 29,
+      "date": "2026-04-25",
+      "title": "Bit Manipulation Basics",
+      "phase": "Bits",
+      "topic": "Bit Manipulation",
+      "pdfTitle": "Apr 25 - Bit Manipulation Basics.pdf",
+      "driveId": "1oyvoIOBRyNgqzr0-F8TlbUe7TX9A00FH",
+      "concepts": [
+        "binary",
+        "bits",
+        "two's complement",
+        "shift",
+        "mask",
+        "check kth bit",
+        "set bit",
+        "toggle bit",
+        "bitset",
+        "subsets by mask"
+      ],
+      "summary": "Bit manipulation basics: binary representation, two's complement, shifts, masks, bit operations, bitset, and subset enumeration.",
+      "notesUrl": "https://drive.google.com/file/d/1oyvoIOBRyNgqzr0-F8TlbUe7TX9A00FH/view"
+    },
+    {
+      "sessionNo": 30,
+      "date": "2026-04-25",
+      "title": "Bit Manipulation Applications",
+      "phase": "Bits",
+      "topic": "Bit Manipulation",
+      "pdfTitle": "Apr 25 - Bit manipulation Applications.pdf",
+      "driveId": "1poTQpznDagS_QUEOD1ByUILQwPE6N0hh",
+      "concepts": [
+        "bit contribution",
+        "OR contribution",
+        "AND contribution",
+        "XOR parity",
+        "runs",
+        "pivot contribution",
+        "distinct subarray AND",
+        "per-bit thinking"
+      ],
+      "summary": "Bit manipulation applications using per-bit contribution for OR/AND/XOR over subarrays, runs, and pivot-style contribution.",
+      "notesUrl": "https://drive.google.com/file/d/1poTQpznDagS_QUEOD1ByUILQwPE6N0hh/view"
+    },
+    {
+      "sessionNo": 31,
+      "date": "2026-05-02",
+      "title": "DP Foundations",
+      "phase": "DP",
+      "topic": "Dynamic Programming",
+      "pdfTitle": "May 02 - DP Foundations.pdf",
+      "driveId": "1jMx-78cyUe74qPHzuJEw62zoegpNaWzN",
+      "concepts": [
+        "DP",
+        "memoization",
+        "tabulation",
+        "DP DAG",
+        "form state transition",
+        "time limit check",
+        "subset sum",
+        "min subset size",
+        "state compression"
+      ],
+      "summary": "Dynamic programming foundations: memoization, tabulation, DP DAG, form/state/transition/time-limit/code framework, and reducing brute force choices into states.",
+      "notesUrl": "https://drive.google.com/file/d/1jMx-78cyUe74qPHzuJEw62zoegpNaWzN/view"
+    },
+    {
+      "sessionNo": 32,
+      "date": "2026-05-02",
+      "title": "DP Form 1",
+      "phase": "DP",
+      "topic": "Dynamic Programming",
+      "pdfTitle": "May 02 - DP Form 1.pdf",
+      "driveId": "1YyYUFFaD50IQYtCFGHG2TQC_Vc6xg4Sr",
+      "concepts": [
+        "DP Form 1",
+        "level choice DP",
+        "choose not choose",
+        "restrictions in state",
+        "state reconstruction",
+        "string restriction DP",
+        "subset DP",
+        "lexicographically smallest reconstruction"
+      ],
+      "summary": "DP Form 1: level-choice / choose-not-choose DP where future restrictions are stored in state, including reconstruction patterns.",
+      "notesUrl": "https://drive.google.com/file/d/1YyYUFFaD50IQYtCFGHG2TQC_Vc6xg4Sr/view"
+    },
+    {
+      "sessionNo": 33,
+      "date": "2026-05-03",
+      "title": "DP Form 2 and 3",
+      "phase": "DP",
+      "topic": "Dynamic Programming",
+      "pdfTitle": "May 03 - DP Form 2 & 3.pdf",
+      "driveId": "1807HFxpjS3yKICNEUJCtAe2wTwwiKt1w",
+      "concepts": [
+        "DP Form 2",
+        "DP Form 3",
+        "ending at i",
+        "Kadane",
+        "LIS",
+        "bitonic",
+        "two sequences",
+        "LCS",
+        "longest common substring",
+        "longest common subsequence",
+        "matching DP"
+      ],
+      "summary": "DP Form 2 and 3: best answer ending at i / pivot-style DP and two-sequence matching DP such as LCS and substring/subsequence variants.",
+      "notesUrl": "https://drive.google.com/file/d/1807HFxpjS3yKICNEUJCtAe2wTwwiKt1w/view"
+    },
+    {
+      "sessionNo": 34,
+      "date": "2026-05-03",
+      "title": "DP Form 4 and 5",
+      "phase": "DP",
+      "topic": "Dynamic Programming",
+      "pdfTitle": "May 03 - DP Form 4 & 5.pdf",
+      "driveId": "12wdORbbb8FVwOBQX84rdaS8FJ7o-8QRO",
+      "concepts": [
+        "DP Form 4",
+        "DP Form 5",
+        "dynamic programming",
+        "advanced DP",
+        "state design",
+        "transition design"
+      ],
+      "summary": "Latest DP follow-up PDF present in the Digital folder. Needs full extraction/OCR to fill exact internal concepts beyond the title.",
+      "notesUrl": "https://drive.google.com/file/d/12wdORbbb8FVwOBQX84rdaS8FJ7o-8QRO/view"
+    }
+  ],
+  "searchArchitecture": {
+    "defaultState": "Show paginated available notes from sessions array.",
+    "queryState": "Run lexical + semantic search over topic aliases, session concepts, summaries, and extracted PDF chunks.",
+    "resultGrouping": "Group by topic first, then show matched sessions underneath, phone-settings style.",
+    "studentActions": [
+      "Open notes",
+      "Watch lecture"
+    ],
+    "adminOnly": [
+      "Open source sheet",
+      "Rebuild index"
+    ]
+  }
+}
