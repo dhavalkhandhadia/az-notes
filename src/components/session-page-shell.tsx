@@ -676,8 +676,8 @@ export function SessionPageShell({
                 <ThemeToggle />
               </div>
 
-              <div className="flex flex-col gap-3 xl:flex-row xl:items-center xl:justify-between">
-                <div className="flex flex-col gap-2.5 lg:flex-row lg:items-center">
+              <div className="flex flex-col gap-3 xl:grid xl:grid-cols-[auto_minmax(0,1fr)_auto] xl:items-center xl:gap-4">
+                <div className="flex shrink-0 items-center gap-2.5">
                   <Button
                     variant="ghost"
                     size="sm"
@@ -688,21 +688,21 @@ export function SessionPageShell({
                     Back
                   </Button>
 
-                  <div className="hidden h-7 w-px bg-slate-200 dark:bg-white/10 lg:block" />
-
-                  <div className="flex flex-wrap items-center gap-2.5">
-                    <CardTitle className="font-heading text-[1.55rem] tracking-[-0.04em] text-slate-950 dark:text-white xl:text-[1.7rem]">
-                      {centerMeta.title}
-                    </CardTitle>
-                    <Badge className="rounded-xl border-0 bg-[#eef3ff] px-2.5 py-0.75 text-[12px] font-medium text-[#2452f2] shadow-none dark:bg-[#18315f] dark:text-[#d6e4ff]">
-                      {centerView.kind === "pdf"
-                        ? `Session ${note.sessionNumber}`
-                        : `${centerMeta.count} sessions`}
-                    </Badge>
-                  </div>
+                  <div className="hidden h-7 w-px shrink-0 bg-slate-200 dark:bg-white/10 lg:block" />
                 </div>
 
-                <div className="flex flex-wrap items-center gap-2.5">
+                <div className="flex min-w-0 items-center gap-2.5">
+                  <CardTitle className="min-w-0 truncate font-heading text-[1.55rem] tracking-[-0.04em] text-slate-950 dark:text-white xl:text-[1.5rem] 2xl:text-[1.7rem]">
+                    {centerMeta.title}
+                  </CardTitle>
+                  <Badge className="shrink-0 rounded-xl border-0 bg-[#eef3ff] px-2.5 py-0.75 text-[12px] font-medium text-[#2452f2] shadow-none dark:bg-[#18315f] dark:text-[#d6e4ff]">
+                    {centerView.kind === "pdf"
+                      ? `Session ${note.sessionNumber}`
+                      : `${centerMeta.count} sessions`}
+                  </Badge>
+                </div>
+
+                <div className="flex shrink-0 items-center justify-end gap-2.5">
                   <Button
                     type="button"
                     variant="outline"
@@ -737,7 +737,7 @@ export function SessionPageShell({
                             <Button
                               variant="outline"
                               disabled
-                              className="h-10 rounded-xl border-slate-200 bg-white px-4 text-[13px] text-slate-400 dark:border-white/10 dark:bg-white/5"
+                              className="h-10 shrink-0 rounded-xl border-slate-200 bg-white px-4 text-[13px] text-slate-400 dark:border-white/10 dark:bg-white/5"
                             >
                               Open original PDF
                               <ExternalLinkIcon data-icon="inline-end" />
@@ -747,7 +747,7 @@ export function SessionPageShell({
                       ) : (
                         <Button
                           variant="outline"
-                          className="h-10 rounded-xl border-slate-200 bg-white px-4 text-[13px] text-slate-900 dark:border-white/10 dark:bg-white/5 dark:text-white"
+                          className="h-10 shrink-0 rounded-xl border-slate-200 bg-white px-4 text-[13px] text-slate-900 dark:border-white/10 dark:bg-white/5 dark:text-white"
                           nativeButton={false}
                           render={<a href={note.originalPdfUrl ?? note.notesUrl} />}
                         >
@@ -759,14 +759,14 @@ export function SessionPageShell({
                         upcomingLecture ? (
                           <Button
                             disabled
-                            className="h-10 rounded-xl bg-slate-200 px-4 text-[13px] font-medium text-slate-500 dark:bg-white/10 dark:text-slate-400"
+                            className="h-10 shrink-0 rounded-xl bg-slate-200 px-4 text-[13px] font-medium text-slate-500 dark:bg-white/10 dark:text-slate-400"
                           >
                             <PlayIcon data-icon="inline-start" />
                             About to happen
                           </Button>
                         ) : (
                         <Button
-                          className="h-10 rounded-xl bg-slate-950 px-4 text-[13px] font-medium text-white hover:bg-slate-800 dark:bg-[#1c4fff] dark:hover:bg-[#1848e5]"
+                          className="h-10 shrink-0 rounded-xl bg-slate-950 px-4 text-[13px] font-medium text-white hover:bg-slate-800 dark:bg-[#1c4fff] dark:hover:bg-[#1848e5]"
                           nativeButton={false}
                           render={
                             <a
