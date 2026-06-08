@@ -977,6 +977,20 @@ const extraLiveSessions = [
       "Segment tree foundations session covering the fundamentals of segment trees for range-query style problems.",
   },
   {
+    id: "segment-tree-applications",
+    title: "Segment Tree Applications",
+    topic: "Trees",
+    phase: "Trees",
+    date: "2026-06-07T15:00:00+05:30",
+    lectureUrl: "https://maang.in/live-sessions/Segment-Tree-Applications-1287",
+    sortOrder: 36.1,
+    subtopics: ["segment tree", "range queries", "applications"],
+    concepts: ["segment tree", "range query applications", "updates", "tree data structures"],
+    difficulty: "Advanced",
+    summary:
+      "Segment tree applications session covering how to apply segment trees to range-query and update problems.",
+  },
+  {
     id: "intro-to-hld",
     title: "Intro to HLD",
     topic: "High Level Design",
